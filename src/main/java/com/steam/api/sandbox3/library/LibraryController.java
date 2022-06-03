@@ -18,6 +18,7 @@ public class LibraryController {
 
     @GetMapping("/hello")
     public String getHello() {
+        User user = userService.getUser("0123");
         return "hello";
     }
 
