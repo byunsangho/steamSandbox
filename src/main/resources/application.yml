@@ -1,0 +1,25 @@
+server:
+  port: 20001
+
+#hibernate:
+#  dialect: org.hibernate.dialect.MySQL5Dialect
+#  show_sql: true
+#
+#spring:
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: none
+#      naming_strategy: org.hibernate.cfg.DefaultNamingStrategy
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#        hbm2ddl:
+#          auto: none
+#        temp:
+#          use_jdbc_metadata_defaults: false
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/steam_sandbox?autoReconnect=true&useSSL=false
+#    username: steam3
+#    password: sandbox
+
