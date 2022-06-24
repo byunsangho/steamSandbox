@@ -9,8 +9,12 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public User getUser(String userId) {
-        return userRepository.findById(userId).get();
+    public User getUser(String steamId) {
+        return userRepository.findBySteamId(steamId);
+    }
+
+    public User getAnyUser() {
+        return userRepository.findFirstBy();
     }
 
 }
